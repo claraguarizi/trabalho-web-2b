@@ -11,27 +11,49 @@
     <title>UNIFORTES</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div id="nome_logo"><a href="unifortes.html"><h2>Unifortes</h2></a></div>
-            <div id="div_busca"><li><input type="text" id="txt_busca" placeholder="Busca pelo site...">
-            <button id="btn_busca">Buscar</button></li></div>
-            <div class = "nav_btn">
-                    <li class="active-nav"><a href="unifortes.html">Página Inicial</a></li>
-                    <li><a href="#">Ranking</a></li>
-                    <li><a href="#">Colaboradores</a></li>
-                    <li class="icon"><a href="#"><i class="fa-solid fa-bell"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-solid fa-user"></i></a></li>
-            </div>
+    <header class="header">
+        <nav class="nav-left">
+          <a class="logo" href="unifortes.html">Unifortes</a>
         </nav>
-    </header>
+        <div>
+              <input class="input" type="text" placeholder="Busca pelo site...">
+              <button href="#" class="btn">Buscar</button>
+        </div>
+        <nav>
+          <ul class="nav-right">
+            <li>
+              <a class="linsk" href="unifortes.html">Pagina inicial</a>
+            </li>
+            <li>
+              <a class="linsk" href="#">Ranking</a>
+            </li>
+            <li>
+              <a class="linsk" href="#">Colaboradores</a>
+            </li>
+            <li>
+              <a class="linsk" href="#">
+                  <i class="fa-solid fa-bell"></i>
+              </a>
+            </li>
+            <li>
+              <a class="linsk" href="#">
+                  <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+            <li>
+              <a class="linsk" href="pagina_inicial_login.html">
+                  <i class="fa-solid fa-user"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     <main>
         <section>
             <div class="barra_nav">
                 <nav class="menu_nav">
                     <ul>
-                        <li class="icon-2"><a href="#"><i class="fa-solid fa-users fa-2xl"></i> Aulas</a></li>
+                        <li class="linsk"><a onclick="click()" id="icon1" href="#"><i class="fa-solid fa-users fa-2xl"></i> Aulas</a></li>
                         <li class="active-nav"><a href="#"><i class="fa-solid fa-gamepad fa-2xl"></i> Minijogos</a></li>
                         <li class="icon-2"><a href="#"><i class="fa-solid fa-calendar fa-2xl"></i> Agenda</a></li>
                         <li class="icon-2"><a href="#"><i class="fa-solid fa-book fa-2xl"></i> Atividades</a></li>
@@ -68,8 +90,10 @@
         <li><a href="#">Ouvidoria</a></li>
         <li><a href="#">Trabalhe conosco</a></li>
         <br>
-        Fortes Engenharia &copy; 2021. Todos os direitos reservados
         </ul>
+        <div class="copyright">
+            <p>Fortes Engenharia &copy; 2021. Todos os direitos reservados</p>
+        </div>
     </footer>
 </body>
 </html>
