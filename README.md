@@ -1,5 +1,5 @@
 # trabalho-web-2b
 Ana Clara Guarizi de Souza CC1Nb
-Gabriel Henrique Ziviani
-Kauan Rajab Lima
-Luís Felipe da Silva Klippel
+Gabriel Henrique Ziviani SI1Nb
+Kauan Rajab Lima SI1Nb
+Luís Felipe da Silva Klippel SI1Nb
