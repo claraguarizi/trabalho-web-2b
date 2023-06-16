@@ -1,0 +1,80 @@
+*{
+    margin: 0; 
+    padding:0; 
+    font-family: 'Inter';
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-weight: bold;
+    background-color: #0F4687;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+}
+#nome_logo{
+    margin-left: 50px;
+}
+nav li{
+    display: inline;
+    padding: 16px;
+
+}
+nav ul, footer ul {
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+}
+nav a:hover{
+    font-size:17px;
+}
+body{
+    background-color: #eee;
+}
+main{
+    width: 90%;
+    margin: 50px;
+}
+#div_busca{
+    background-color: #eee;
+    border-radius: 10px;
+    border: solid 2px;
+    width: 300px;
+    height: 32px;
+}
+#txt_busca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 13px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+#btn_busca{
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 10px;
+    width: 70px;
+    font-weight: bold;
+}
+.active-nav{
+    padding: 4px 0;
+    border-bottom: 2px solid white;
+}
+footer{
+    text-align: center;
+    background-color: #DDD;
+}
+.rodape li a{
+    color: black;
+}

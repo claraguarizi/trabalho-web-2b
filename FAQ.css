@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    text-align: center;
+    color: #35A296;
+    margin-bottom: 26px;
+}
+.container{
+    min-height: 400px;
+}
+.pergunta{
+    margin: 16px;
+}

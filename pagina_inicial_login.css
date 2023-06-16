@@ -1,0 +1,79 @@
+.barra_nav{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.menu_nav{
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #35A296;
+    padding: 25px 30px;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+}
+.infos_game{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box_game{
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: #DDD;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+}
+.texto-2{
+    max-width: 250px;
+    text-align: justify;
+}
+.card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.75);
+}
+.button_check{
+    width: 100%;
+    height: 50px;
+}
+.button{
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    color: white;
+}
+.nome_card{
+    font-weight: 1000;
+}
+.tipo_card{
+    color: darkgray;
+}
+.button#true{
+    background-color: green;
+    width: 80px;
+}
+.button#false{
+    background-color: red;
+    width: 50px;
+}
+.button:hover{
+    cursor: pointer;
+}
