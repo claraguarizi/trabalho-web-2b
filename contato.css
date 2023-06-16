@@ -1,42 +1,7 @@
-
-main{
-    height:70vh
-}
 .contatos{
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #35A296;
-    width: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    gap: 2rem;
+    text-align: center;
 }
 .nome{
     font-weight: bold;
-    color: #E0F5F3;
-}
-.logo{
-    font-size: 2rem;
-    font-weight: 600;
-    transition: ease all 0.5s;
-}
-.logo:hover{
-    font-size: 2.2rem;
-}
-
-.header{
-    background-color: #0F4687;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 3rem;
-}
-.nav-right{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+    color: #35A296;
 }
